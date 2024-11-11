@@ -1,42 +1,38 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-*.exp
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# Executables
-*.exe
-*.out
-*.app
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
+### VS Code ###
+.vscode/
 
-
-*.class
-
-# .settings
-# .classpath
-# .project
-
-hotspot/.project
-hotspot/.cproject
-hotspot/.settings
-
-target
-build
-nbproject
-hotspot.log
-
-*.pdb
-*.ilk
+### Mac OS ###
+.DS_Store
